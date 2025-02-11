@@ -1,6 +1,0 @@
- - name: Copy files to servers
-   copy:
-     src: "{{ item.src }}"
-    dest: "{{ item.dest }}"
-  loop:
-    - { src: "example.txt", dest: "/tmp/example.txt" }
